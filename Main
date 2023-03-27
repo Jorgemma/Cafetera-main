@@ -11,7 +11,7 @@ public class Cafetera_drive
         System.out.println("Estado inicial de la cafetera:"+maquina);
         maquina.cantidades();
         
-        while (maquina.capuchino());
+        while (maquina.expresso());
         System.out.println("Estado Final de la cafetera: ");
         System.out.println(maquina);       
     } 
